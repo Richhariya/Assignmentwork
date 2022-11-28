@@ -1,0 +1,40 @@
+/* .container{
+   border: 1px solid red;
+} */
+
+
+
+.box{
+    width: 1400px;
+    background-color: rgb(204,229,255);
+    padding-left: 25px;
+    padding: 6px;
+    }
+
+@media (max-width:768px){
+    .box{
+        background-color:  rgb(204,229,255);
+        width: 768px;
+    }
+}    
+
+.sectionGraph{
+    border: 1px solid gray;
+    margin-left: 230px;
+    margin-top: 30px;
+    width: 800px;
+    background-color: transparent;
+    box-shadow: 0px 0px 4px gray,
+                0px 0px 8px gray,
+                0px 0px 12px gray;
+                
+}
+
+@media (max-width:768px){
+    .sectionGraph{
+        
+        margin-left: 0;
+        width: 760px ;
+        
+    }
+}    
